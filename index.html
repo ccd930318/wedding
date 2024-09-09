@@ -133,6 +133,12 @@ section {
 		background-attachment: fixed !important;
 	}
 }
+
+@media (max-width: 1024px) {
+	#mainPic {
+		background-position-x: 58% !important;
+	}
+}
 </style>
 <script>
 $(document).ready(function() {
@@ -276,7 +282,7 @@ $(document).ready(function() {
 			</header>
 		</div>
 	</section>
-	<section class="hero is-dark is-fullheight" style="position: relative; background-image: url(images/tonyvicky-bg1.jpg); background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll;">
+	<section id="mainPic" class="hero is-dark is-fullheight" style="position: relative; background-position-x: 58%;background-image: url(images/tonyvicky-bg1.jpg); background-repeat: no-repeat; background-position: center top; background-size: cover; background-attachment: scroll;">
 		<!-- Hero content: will be in the middle -->
 		<div class="hero-body">
 			<div class="container has-text-centered">
@@ -373,7 +379,7 @@ $(document).ready(function() {
 			<div class="slider">
 				<div class="slider__item" style="height: 100vh; background: url(images/tv01.jpg) no-repeat center center; background-size: cover;"></div>
 				<div class="slider__item" style="height: 100vh; background: url(images/tv02.jpg) no-repeat center center; background-size: cover;"></div>
-				<div class="slider__item" style="height: 100vh; background: url(images/tv03.jpg) no-repeat center left; background-size: cover;"></div>
+				<div class="slider__item" style="height: 100vh; background: url(images/tv03.jpg) no-repeat center center; background-size: cover;"></div>
 				<div class="slider__item" style="height: 100vh; background: url(images/tv04.jpg) no-repeat center center; background-size: cover;"></div>
 			</div>
 			<div class="slider__switch slider__switch--prev" data-ikslider-dir="prev">
